@@ -1,0 +1,19 @@
+Single_PrimaryFiredLast_SecondaryHasTorpedo:
+    Leírás: Ha Single módban az elsővel lőttünk utoljára és a másodikban van torpedó, akkor megpróbálunk a másodikkal lőni az alternálás miatt.
+    Elvárás: Mivel van a másodikban torpedó és azzal próbálunk lőni, igaz eredményt várunk.
+
+Single_NotPrimaryFiredLast_PrimaryEmpty_SecondaryHasTorpedo:
+    Leírás: Ha Single módban nem az elsővel lőttünk utoljára, de az első üres, a második pedig nem, akkor is a másodikkal kell megpróbálni lőni.
+    Elvárás: Bár az elsővel kéne lőni, mivel az üres, beérjük a másodikkal. A második tud lőni, így igazat várunk.
+
+All_BothEmpty:
+    Leírás: Ha All módban próbálunk lőni és mindkettő üres, akkor nem tudunk lőni.
+    Elvárás: Mivel mindkettő üres, nem tudunk lőni egyikkel sem, így hamisat kapunk.
+
+All_PrimaryEmpty_SecondaryHasTorpedo:
+    Leírás: Ha All módban próbálunk lőni és az első üres, de a második nem, akkor kilőjük csak a másodikat.
+    Elvárás: Mivel azt adjuk vissza, hogy sikerült-e legalább egyet kilőni és itt ki kell tudnunk lőni a másodikat, ezért igazat várunk.
+
+All_SecondaryEmpty_PrimaryHasTorpedo:
+    Leírás: Ha All módban próbálunk lőni és a második üres, de az első nem, akkor kilőjük csak az elsőt.
+    Elvárás: Mivel azt adjuk vissza, hogy sikerült-e legalább egyet kilőni és itt ki kell tudnunk lőni az elsőt, ezért igazat várunk.

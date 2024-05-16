@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: hu.bme.mit.spaceship.GT4500Test
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in hu.bme.mit.spaceship.GT4500Test
+Tests run: 12, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.731 s <<< FAILURE! - in hu.bme.mit.spaceship.GT4500Test
+Default  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Name is null
+	at hu.bme.mit.spaceship.GT4500Test.Default(GT4500Test.java:214)
+
